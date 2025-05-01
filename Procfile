@@ -1,1 +1,1 @@
-web: gunicorn office_ops.wsgi
+web: gunicorn "office_ops.wsgi:application"
